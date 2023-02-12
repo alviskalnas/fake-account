@@ -1,4 +1,4 @@
-const fetchDataButton = document.getElementById("fetch-data-btn");
+const fetchDataButton = document.getElementById("create-btn");
 
 fetchDataButton.addEventListener("click", async () => {
   const response = await fetch("https://randomuser.me/api/?inc=gender,name,email,nat,phone,dob,location,picture&format=json");
