@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.body {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 1533px;
+}
+.body .body-pic {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.main-container {
+    margin: 140px;
+    position: relative;
+    width: 1100px;
+    height: 800px;
+    background: rgb(130, 130, 130);
+    background: linear-gradient(0deg, rgba(130, 130, 130, 1) 0%, rgba(255, 255, 255, 1) 64%);
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.result {
+    width: 1100px;
+    height: 800px;
+}
+
+.top-obj {
+    width: 1100px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.image-con {
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(136, 109, 109, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: width 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.image-con:hover {
+    position: inherit;
+    width: 800px;
+    transform: translateX(0px);
+    z-index: 1;
+}
+
+.person-pic {
+    border-radius: 120px;
+}
+
+.left-border-box {
+    border-bottom-right-radius: 180px 140px;
+    width: 400px;
+    height: 150px;
+    background: #fff;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.right-border-box {
+    border-bottom-left-radius: 180px 140px;
+    width: 400px;
+    height: 150px;
+    background: #fff;
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.person-info {
+    margin-top: 20px;
+    width: 1100px;
+    height: 495px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.person-info .name-con {
+    background: linear-gradient(7deg, rgba(208,225,240,1) 0%, rgba(251,243,255,1) 50%, rgba(208,225,240,1) 100%);
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    transition: box-shadow 0.3s;
+}
+.person-info .name-con:hover {
+    box-shadow: 3px 3px 3px gray;
+}
+
+.person-info .surname-con {
+    background: linear-gradient(7deg, rgba(208,225,240,1) 0%, rgba(251,243,255,1) 50%, rgba(208,225,240,1) 100%);
+    width: 500px;
+    height: 30px;
+     border-radius: 5px;
+     transition: box-shadow 0.3s;
+}
+.person-info .surname-con:hover {
+    box-shadow: 3px 3px 3px gray;
+}
+
+.person-info .nationality-con {
+    background: linear-gradient(7deg, rgba(208,225,240,1) 0%, rgba(251,243,255,1) 50%, rgba(208,225,240,1) 100%);
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    transition: box-shadow 0.3s;
+}
+
+.person-info .nationality-con:hover {
+    box-shadow: 3px 3px 3px gray;
+}
+
+
+
+.person-info .gender-con {
+    background: linear-gradient(7deg, rgba(208,225,240,1) 0%, rgba(251,243,255,1) 50%, rgba(208,225,240,1) 100%);
+    width: 500px;
+    height: 30px;
+     border-radius: 5px;
+     transition: box-shadow 0.3s;
+}
+.person-info .gender-con:hover {
+    box-shadow: 3px 3px 3px gray;
+}
+
+.person-info .dob-con {
+    background: linear-gradient(7deg, rgba(208,225,240,1) 0%, rgba(251,243,255,1) 50%, rgba(208,225,240,1) 100%);
+    width: 500px;
+    height: 30px;
+     border-radius: 5px;
+     transition: box-shadow 0.3s;
+}
+.person-info .dob-con:hover {
+    box-shadow: 3px 3px 3px gray;
+}
+
+.person-info .email-con {
+    background: linear-gradient(7deg, rgba(208,225,240,1) 0%, rgba(251,243,255,1) 50%, rgba(208,225,240,1) 100%);
+    width: 500px;
+    height: 30px;
+     border-radius: 5px;
+     transition: box-shadow 0.3s;
+}
+.person-info .email-con:hover {
+    box-shadow: 3px 3px 3px gray;
+}
+
+.person-info .phone-con {
+    background: linear-gradient(7deg, rgba(208,225,240,1) 0%, rgba(251,243,255,1) 50%, rgba(208,225,240,1) 100%);
+    width: 500px;
+    height: 30px;
+     border-radius: 5px;
+     transition: box-shadow 0.3s;
+}
+.person-info .phone-con:hover {
+    box-shadow: 3px 3px 3px gray;
+}
+
+.person-info .loc-con {
+    background: linear-gradient(7deg, rgba(208,225,240,1) 0%, rgba(251,243,255,1) 50%, rgba(208,225,240,1) 100%);
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    transition: box-shadow 0.3s;
+}
+.person-info .loc-con:hover {
+    box-shadow: 3px 3px 3px gray;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+li {
+    font-size: medium;
+    font-family: sans-serif;
+    margin: 3px 0 0 298px;
+    color: bisque;
+    visibility: hidden;
+}
+
+.person-info .loc-con:hover li {
+    visibility: visible;
+}
+
+p {
+    margin: 0;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+
+
+span#full-name {
+    font-weight: 700;
+}
+
+span#surname {
+    font-weight: 700;
+}
+
+span#nationality {
+    font-weight: 700;
+}
+
+span#gender {
+    font-weight: 700;
+}
+
+span#dob {
+    font-weight: 700;
+}
+
+span#location {
+    font-weight: 700;
+}
+
+span#email {
+    font-weight: 700;
+}
+
+span#phone {
+    font-weight: 700;
+}
+
+.button-con {
+    width: 1100px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: dotted;
+    background: beige;
+}
+
+button:hover {
+    background: #333;
+    color: #fff;
+    border-color: #fff;
+
+}
